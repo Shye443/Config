@@ -1,0 +1,2 @@
+# Config
+com.shyedev.app
