@@ -53,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
 		binding.Toolbar.setNavigationOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _v) {
-				onBackPressed();
+			  // deleted this -> onBackPressed();
+			  // done this ->
+			  finish();
 			}
 		});
 		
@@ -68,4 +70,4 @@ public class MainActivity extends AppCompatActivity {
 	private void initializeLogic() {
 	}
 	
-}
+}
