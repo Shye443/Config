@@ -53,9 +53,10 @@ public class MainActivity extends AppCompatActivity {
 		binding.Toolbar.setNavigationOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _v) {
-			  // deleted this -> onBackPressed();
-			  // done this ->
-			  finish();
+				// remove this -> onBackPressed();
+				//Just bttr for new Android versions above API level 25
+				finish();
+				
 			}
 		});
 		
